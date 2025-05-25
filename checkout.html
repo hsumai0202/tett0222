@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 載入CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart_style.css">
+    <!-- 載入Js -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/hamBar.js"></script>
+    <!-- 載入font icon -->
+    <script src="https://kit.fontawesome.com/277a75cd75.js" crossorigin="anonymous"></script>
+    <!-- 分頁 icon -->
+    <link rel="icon" type="imge/png" sizes="32x32" href="img/iocn.png" />
+
+
+    <title>大俠漢堡堡</title>
+</head>
+
+<body>
+    <!-- top nav  -->
+    <header>
+        <div class="nav">
+            <!-- logo -->
+            <!-- 圖片設定超連接 -->
+            <a class="nav_logo" href="index.html">
+                <img class="all_logo" src="img/logo.png" alt="">
+            </a>
+            <!-- 漢堡選單 --><a id="hamBar" href="#">
+                <i class="fa-solid fa-burger burger-icon "></i></a>
+            <!-- nav -->
+            <ul class="all_nav" id="menu">
+                <li><a href="meals.html"><i class="fa-solid fa-burger"> 所有餐點</i></a></li>
+                <li><a href="about.html"><i class="fa-solid fa-heart"> 三大承諾</i></a></li>
+                <li><a href="news.html"><i class="fa-solid fa-bullhorn"> 最新消息</i></a></li>
+                <li><a href="problem.html"><i class="fa-solid fa-comment-dots"> 常見問題</i></a></li>
+                <li><a id="all_nav_order" href="order.html"><i class="fa-solid fa-file-lines"> 訂單查詢</i></a></li>
+            </ul>
+            <ul class="all_icon">
+                <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+        <!-- 內容區塊  -->
+        <div class="checkout_main">
+            <h1>訂單商品</h1>
+            <div class="checkout_main_order">
+                <p class="meals_name1">商品</p>
+                <p class="meals_price1">單價</p>
+                <p class="meals_quantity1">數量</p>
+                <p class="meals_price2">總價</p>
+            </div>
+
+            <div class="cart_main_order2">
+                <img src="img/商品圖/暗夜神秘堡.png" alt="">
+                <p class="name3">劍俠特製堡</p>
+                <p class="cart_price3">$250</p>
+                <p class="cart_quantity3">1</p>
+                <p class="cart_price4">$250</p>
+            </div>
+            <hr class="cart_main_hr3">
+            <div class="cart_main_order3">
+                <img src="img/商品圖/酪梨起司.png" alt="">
+                <p class="name4">葵花寶典堡</p>
+                <p class="cart_price5">$200</p>
+                <p class="cart_quantity4">1</p>
+                <p class="cart_price6">$200</p>
+            </div>
+            <hr class="cart_main_hr4">
+            <!-- 訂購人表單區 -->
+            <div class="cart_map">
+                <h3>訂購人資訊</h3>
+                <div class="logistics">
+                    <input type="button" value="超商取貨" id="logistics">
+                    <input type="button" value="冷凍宅配" id="logistics_home">
+                </div>
+                <!-- 資訊區 -->
+                <div class="inf">
+                    <ul>
+                        <li>
+                            <p>姓名</p>
+                            <input type="text" class="input_name" placeholder="輸入姓名">
+                        </li>
+                        <li>
+                            <p>電話號碼</p>
+                            <input type="text" class="phone" placeholder="輸入電話">
+                        </li>
+                        <li>
+                            <p>聯絡地址</p>
+                            <input type="text" class="address" placeholder="輸入地址">
+                        </li>
+                        <!-- 警語 -->
+                        <li>
+                            <p class="warning">請確認你已提供與身份證件相同之真實姓名，以便取貨時供超商店員核對</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 收貨人表單區 -->
+                <h3 class="recipient">收貨人資訊</h3>
+                <input type="checkbox" name="subscribe" id="order_chk"> <p class="order_text">同訂購人資訊</p>
+                <!-- 資訊區 -->
+                <div class="log">
+                    <ul>
+                        <li>
+                            <p>姓名</p>
+                            <input type="text" class="input_name" placeholder="輸入姓名">
+                        </li>
+                        <li>
+                            <p>電話號碼</p>
+                            <input type="text" class="phone" placeholder="輸入電話">
+                        </li>
+                        <li>
+                            <p>聯絡地址</p>
+                            <input type="text" class="address" placeholder="輸入地址">
+                        </li>
+
+                    </ul>
+                    <h3>付款方式</h3>
+                    <div class="order">
+                        <input type="button" value="貨到付款" id="payment">
+                        <input type="button" value="線上轉帳" id="payment_online">
+                    </div>
+                </div>
+            </div>
+            <div class="cart_order_checkout2">
+                <h3 class="order3">運費:</h3> 
+                <h1 class="order4">$60</h1>
+                <hr class="cart_main_hr5">
+                <h3 class="order5">訂單總金額:</h3> 
+                <h1 class="order6">$510</h1>
+
+                <input type="submit" value="下訂單" id="checkout2" onclick="window.location.href='order.html';_self">
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+    </header>
+
+
+    <footer>
+        <!-- <img src="img/logo.png" alt="" class="footer_logo"> -->
+        <div class="footer_nav">
+            <ul>
+                <li><a href="meals.html">所有餐點</a></li>
+                <li><a href="order.html">訂單查詢</a></li>
+                <li><a href="news.html">最新消息</a></li>
+                <li><a href="service.html">聯絡我們</a></li>
+            </ul>
+        </div>
+
+        <div class="source">
+            <p class="source_p">客服專線:0800-00-0080
+                客服信箱:0800000080@com.tw/<br>本網站為緯育TibaMe前端工程師班第91期學員專題作品,本平台僅供學習、展示之用,無販售、商業行為等等。<br>參考資源:門前隱味、yamahan.tokyo
+                | 圖片影片來源:freepik、pexels、Midjourney、istockphoto</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

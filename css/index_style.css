@@ -1,0 +1,511 @@
+@import url("reset.css");
+
+/* ---------------- top 影片區 ------------------ */
+
+.voideo_box{
+    /* outline: 10px solid gold; */
+    height: 53vh;
+    margin: 20px;
+    overflow: hidden;
+
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+
+.more:after{
+    background-image: url("../img/arrow.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 660px;
+    left: 50%; 
+    content: '';
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin: 0 auto;
+    position: absolute;
+
+}
+
+/* ---------------- 首頁內容區塊 ------------------ */
+
+.main{
+    margin: 0 auto;
+    width: 100%;
+
+}
+.index_about{
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* position: relative; */
+    transform-style: preserve-3d
+
+
+}
+
+/* 吃漢堡的圖 */
+.main_img1{
+    margin-top: 5px;
+    position: relative;
+    /* overflow: hidden; */
+    filter: drop-shadow(20px 50px 10px rgba(0, 0, 0, 0.242));
+    /* 上右下左 */
+    padding: 0px 0 0 150px;
+    width: 540px;
+    z-index: 2;
+
+}
+
+.index_about h1{
+    width: 530px;
+    font-size: 42px;
+    color: #313131;
+    font-family: "Noto Serif TC", serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    /* 定位 */
+    position: relative;
+    bottom: 400px;
+    left: 720px;
+}
+
+.index_about p{
+    width: 530px;
+    font-size: 16px;
+    color: #313131;
+    overflow: hidden;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 25px;
+    /* 定位 */
+    position: relative;
+    bottom: 400px;
+    left: 720px;
+}
+.main_img2{
+    height: 62vh;
+    overflow: hidden;
+}
+
+/* 漢堡情境圖 */
+.main_img3{
+    width: 100%;
+    /* 圖片下面出現多的空白 */
+    display: block;
+
+}
+
+
+
+/* ---------------- 首頁內容區塊 食材介紹 ------------------ */
+
+.about{
+    background: #000000e7;
+    width: 100%;
+    height: 800px;
+}
+
+
+.main_about_ani_bgsmoke{
+    outline: 2px solid firebrick;
+    position: absolute;
+    top: 2630px;
+    left: -480px;
+    width: 42px;
+    height: 42px;
+
+}
+
+.b_smoke{
+    position: absolute;
+    display: block;
+    width: 100%;
+    overflow: visible;
+
+}
+
+.main_about_ani_bgsmoke > img{
+
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 肉排介紹 */
+.main_about{
+    padding-top: 50px;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.main_about_video {
+    width: 40vw;
+
+}
+.about_video{
+    width: 100%;
+    height: auto;
+    /* 上右下左 */
+    padding: 0 0 0 50px;
+    position: relative;
+
+
+}
+
+.main_about_video h1{
+    width: 500px;
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: "Noto Serif TC", serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    /* 定位 */
+    position: relative;
+    bottom: 290px;
+    left: 600px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.685);
+
+
+
+}
+
+.main_about_video p{
+    width: 500px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 25px;
+    /* 定位 */
+    position: relative;
+    bottom: 290px;
+    left: 600px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.242);
+
+
+}
+
+
+/* 肉排照 */
+.main_img5{
+    width: 500px;
+    margin: 90px 50px 0 0;
+    background-color: #fff;
+    position: relative;
+    left: 590px;
+    bottom: 290px;
+    filter: drop-shadow(-20px 50px 10px rgba(0, 0, 0, 0.242));
+    z-index: 5;
+
+}
+
+
+.main_img5:hover {
+    display: block;
+    cursor:pointer;
+    transition: .5s;
+    opacity: 0;
+}
+
+.mainvoideo_box {
+    /* outline: 2px solid firebrick; */
+    width: 35vw;
+    position: relative;
+    left: 590px;
+    bottom: 790px;
+
+}
+.meat_video{
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+
+
+
+
+
+
+/* 蔬菜介紹 */
+.main_about_material{
+    background: #000000e7;
+    width: 100%;
+    height: 600px;
+    
+}
+
+.about_material{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+.main_about_material h1{
+    width: 500px;
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: "Noto Serif TC", serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding-left: 100px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.685);
+
+    
+
+}
+
+.main_about_material p{
+    width: 900px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.242);
+    padding-left: 100px;
+    padding-bottom: 20px;
+
+}
+
+/* 蔬菜照 */
+.img6_box{
+    height: 41vh;
+    margin: 20px;
+    overflow: hidden;
+    filter: drop-shadow(10px 50px 10px rgba(0, 0, 0, 0.242));
+
+}
+.main_img6{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ---------------- 動畫設定區域 ------------------ */
+
+/* 吃漢堡區塊 */
+.ani_img {
+    opacity: 0;
+    transition: all 2s;
+    transform: translateY(2em);
+    /* transform: rotateZ('1'); */
+    animation:1.2s .4s ease-in-out forwards
+
+}
+
+.ani_img.ed {
+    opacity: 1;
+    transform: translateY(0em);
+    z-index: 1;
+}
+
+/* 烤肉漢堡圖煙霧效果 */
+.b_smoke_ani{
+    position: absolute;
+    bottom: 270px;
+    left: 0px;
+    transform: scale(0);
+    opacity: 0;
+    animation: bgsmoky 7s infinite linear;
+
+}
+
+.b_smoke_ani2{
+    position: absolute;
+    bottom: 560px;
+    left: 810px;
+    transform: scale(0.5);
+    opacity: 0;
+    animation: bgsmoky 7s infinite linear;
+
+}
+
+@keyframes bgsmoky {
+    0% {
+    transform: scale(0);
+    opacity: 0;
+    }
+    50%{
+    transform: scale(0.5);
+    opacity: 0.5;
+    }
+    100% {
+    transform: scale(1);
+    opacity: 0;
+    }
+}
+
+
+@keyframes easeInQuad {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100px);
+      }
+}
+
+
+/* ---------------- 三大承諾內容區塊 ------------------ */
+
+.about_main{
+    width: 100%;
+}
+
+.about_main h1{
+    text-align: center;
+    font-size: 42px;
+    color: #313131;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding: 30px 0;
+
+}
+/* 肉的介紹 */
+.about_main_1{
+    /* outline: 2px solid darkblue; */
+    background-color: #ffaa001a;
+    margin: 40px;
+    width: 1000px;
+    height: 790px;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 50px;
+
+}
+
+.about_img1{
+    width: 900px;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    left: 55px;    
+}
+
+.about_img2{
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    top: 60px;
+    left: 55px;  
+    filter: drop-shadow(10px 10px 10px rgba(67, 47, 3, 0.242));
+}
+
+.about_main_font{
+    /* outline: 2px solid darkblue; */
+    width: 500px;
+    position: relative;
+    bottom: 240px;
+    left: 390px;
+}
+
+.about_main_font h2 {
+    /* outline: 2px solid darkblue; */
+    width: 500px;
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #282828;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 1.2;
+
+}
+
+
+.about_main_font p {
+    /* outline: 2px solid darkblue; */
+    width: 550px;
+    font-size: 16px;
+    color: #313131;
+    overflow: hidden;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 25px;
+
+}
+
+/* 蔬菜的介紹 */
+.about_img3{
+    width: 900px;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    left: 55px;    
+}
+
+.about_img4{
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    top: 60px;
+    left: 55px;  
+    filter: drop-shadow(10px 10px 10px rgba(67, 47, 3, 0.242));
+}
+
+/* 蔬菜的介紹 */
+.about_img5{
+    width: 900px;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    left: 55px;    
+}
+
+.about_img6{
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    top: 60px;
+    left: 55px;  
+    filter: drop-shadow(10px 10px 10px rgba(67, 47, 3, 0.242));
+}
+
+
+
+/* 新版輪播＋ＪＳ */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 修改下方的圈圈按鈕顏色 */
+.swiper-pagination-bullet{
+    --swiper-theme-color:#F05E1C
+}

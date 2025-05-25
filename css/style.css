@@ -1,0 +1,255 @@
+@import url("reset.css");
+
+/*  googlefont */
+.noto-serif tc-regular {
+    font-family: "Noto Serif TC", serif, "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body{
+    background-image: url(../img/bg2.jpg);
+    background-size: cover;
+}
+
+header{
+    /* outline: 5px solid fuchsia; */
+    width: 100%;
+    height: 100%;
+
+}
+
+.nav .burger-icon{
+    display: none;
+}
+
+
+/* ----------------  nav ------------------ */
+
+.nav{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+
+.all_nav{
+	display: flex;
+    align-items: center;
+
+}
+.all_nav ul{
+    /* border: 2px solid green; */
+    display: flex;
+    position: relative;
+    text-align: center;
+    bottom: 80px;
+
+
+}
+
+.all_nav li {
+    /* border: 2px solid green; */
+    display:inline-block;
+    position: relative;
+    margin: 20px;
+}
+
+/* 按鈕 */
+.all_nav li a{
+    display: block;
+    width: 110px;
+    height: 20px;
+    font-size: 20px;
+    color: #F05E1C;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 5px;
+    backface-visibility: hidden
+
+}
+
+
+.fa-burger-lettuce {
+    text-decoration: none;
+    display: block;
+    color: #FFA800;
+    font-size: 30px;
+}
+
+
+#all_nav_order{
+    display: block;
+    color: #ffffff;
+    background-color: #F05E1C;
+    width: 130px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+#all_nav_order:hover{
+    color: #fff;
+    background-color: #FFA800;
+    border: 0;
+
+}
+
+
+.all_logo{
+    height: 90px;
+    /* float: left; */
+    margin: 14px 0 0 31px;
+}
+
+
+
+.all_icon{
+    display: flex;
+	justify-content: center;
+	flex-basis: 350px;
+    z-index: 40;
+}
+
+.all_icon li{
+	margin-left: 45px;
+    margin-bottom: 30px;
+}
+
+.all_icon li a{
+	color: #FFA800;
+    font-size: 35px;
+    position: fixed;
+
+
+}
+/* ---------------- footer ------------------ */
+
+footer{
+    /* outline: 5px solid fuchsia; */
+    width: 100%;
+    height: 100%;
+    background-color: #FFF3DD;
+    margin-top: 50px;
+
+    /* position: relative;
+    top: 3500px;
+     */
+}
+
+.footer_nav{
+    /* border: 10px solid sandybrown ; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer_nav ul{
+    /* border: 2px solid green; */
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer_nav li {
+    /* border: 2px solid green; */
+    display:inline-block;
+    position:relative;
+    width: 100px;
+    height: 20px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.source{
+    background-color: #282828;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.source_p{
+    width: 100%;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+/* 按鈕 */
+.footer_nav a{
+
+    width: 100%;
+    height: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #932E00;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+}
+
+
+
+/* ---------------- 頁碼 ------------------ */
+
+.page-normal{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.page-normal a{
+    border: 1px solid #F05E1C;
+    padding: 5px 7px;
+    color: #F05E1C;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.page-normal a:hover, .page-normal .page-prev:hover {
+    background-color: #ffbe94;
+}
+
+
+/*設置左單括號 < 的css樣式*/
+.page-normal .page-prev{
+    color: #F05E1C;
+}
+
+.page-normal a, .page-normal a:hover, .page-normal .page-prev {
+    border: 1px solid #F05E1C;
+    padding: 5px 7px;
+}
+
+
+/* ---------------- 麵包屑  ------------------ */
+
+.breadcrumb{
+    padding: 45px 0 0px 110px;
+}
+
+.breadcrumb a,span{
+    color: #932E00;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+}

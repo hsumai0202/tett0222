@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 載入CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/service_style.css">
+    <!-- 載入Js -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/hamBar.js"></script>
+    <!-- 載入font icon -->
+    <script src="https://kit.fontawesome.com/277a75cd75.js" crossorigin="anonymous"></script>
+    <!-- 分頁 icon -->
+    <link rel="icon" type="imge/png" sizes="32x32" href="img/iocn.png" />
+
+    <title>大俠漢堡堡</title>
+</head>
+
+<body>
+    <!-- top nav  -->
+    <header>
+        <div class="nav">
+            <!-- logo -->
+            <!-- 圖片設定超連接 -->
+            <a class="nav_logo" href="index.html">
+                <img class="all_logo" src="img/logo.png" alt="">
+            </a>
+            <!-- 漢堡選單 --><a id="hamBar" href="#">
+                <i class="fa-solid fa-burger burger-icon "></i></a>
+            <!-- nav -->
+            <ul class="all_nav" id="menu">
+                <li><a href="meals.html"><i class="fa-solid fa-burger"> 所有餐點</i></a></li>
+                <li><a href="about.html"><i class="fa-solid fa-heart"> 三大承諾</i></a></li>
+                <li><a href="news.html"><i class="fa-solid fa-bullhorn"> 最新消息</i></a></li>
+                <li><a href="problem.html"><i class="fa-solid fa-comment-dots"> 常見問題</i></a></li>
+                <li><a id="all_nav_order" href="order.html"><i class="fa-solid fa-file-lines"> 訂單查詢</i></a></li>
+            </ul>
+            <ul class="all_icon">
+                <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+        <!-- 聯絡我們內容區塊  -->
+
+        <div class="service_main"></div>
+        <h1>聯絡我們</h1>
+        <div class="service">
+            <ul>
+                <!-- 姓名 -->
+                <!-- 文字框有預設的文字呈現為placeholder="輸入文字" -->
+                <li>
+                    <input type="text" class="name" placeholder="您的姓名">
+                </li>
+                <li>
+                    <input type="text" class="phone" placeholder="您的電話">
+                </li>
+                <li>
+                    <input type="text" class="address" placeholder="您的信箱">
+                </li>
+
+                <li>
+                    <p>您的意見</p>
+                    <textarea></textarea>
+                </li>
+                <li>
+                    <p>訂閱電子報</p>
+                    <input type="checkbox" id="chk">
+                    <label for="chk">我要訂閱！</label>
+                </li>
+                <li>
+                    <input type="submit" class="send" value="送出">
+                </li>
+
+            </ul>
+        </div>
+        </div>
+
+
+    </header>
+
+
+    <footer>
+        <!-- <img src="img/logo.png" alt="" class="footer_logo"> -->
+        <div class="footer_nav">
+            <ul>
+                <li><a href="meals.html">所有餐點</a></li>
+                <li><a href="order.html">訂單查詢</a></li>
+                <li><a href="news.html">最新消息</a></li>
+                <li><a href="service.html">聯絡我們</a></li>
+            </ul>
+        </div>
+
+        <div class="source">
+            <p class="source_p">客服專線:0800-00-0080
+                客服信箱:0800000080@com.tw/<br>本網站為緯育TibaMe前端工程師班第91期學員專題作品,本平台僅供學習、展示之用,無販售、商業行為等等。<br>參考資源:門前隱味、yamahan.tokyo
+                | 圖片影片來源:freepik、pexels、Midjourney、istockphoto</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

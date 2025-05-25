@@ -1,0 +1,1114 @@
+@import url("reset.css");
+
+/* ---------------- 購物車 ------------------ */
+
+.cart_main{
+    width: 100%;
+    height: 600px;
+}
+
+.cart_main_order{
+    width: 990px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #ffffffa4;
+    border-radius: 20px;
+    position: absolute;
+    top: 220px;
+    left: 100px;
+}
+
+.cart_main h1{
+    text-align: center;
+    font-size: 42px;
+    color: #313131;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding: 30px 0;
+}
+
+#chk{
+    position: relative;
+    top: 11px;
+    left: 20px;
+}
+
+.meals_all{
+    width: 100px;
+    position: relative;
+    bottom: 7px;
+    left: 40px;
+    font-size: 14px;
+    font-family: "Noto Sans TC", sans-serif;
+    color: #838383;
+
+}
+
+#toggle{
+    position: relative;
+    bottom: -12px;
+    left: 20px;
+}
+
+.meals_all{
+    width: 100px;
+    position: relative;
+    bottom: 5px;
+    left: 45px;
+    font-size: 14px;
+    font-family: "Noto Sans TC", sans-serif;
+    color: #838383;
+}
+
+.meals_name{
+    width: 100px;
+    position: relative;
+    bottom: 20px;
+    left: 250px;
+    font-size: 14px;
+    font-family: "Noto Sans TC", sans-serif;
+    color: #838383;
+}
+
+.meals_quantity{
+    width: 100px;
+    position: relative;
+    top: -34px;
+    left: 500px;
+    font-size: 14px;
+    font-family: "Noto Sans TC", sans-serif;
+    color: #838383;
+}
+.meals_price{
+    width: 100px;
+    position: relative;
+    bottom: 49px;
+    left: 760px;
+    font-size: 14px;
+    font-family: "Noto Sans TC", sans-serif;
+    color: #838383;
+}
+
+
+.cart_main_order2{
+    width: 990px;
+    height: 100px;
+    margin: 0 auto;
+    position: absolute;
+    top: 280px;
+    left: 120px;
+
+}
+
+.cart_main_order2 img{
+    width: 100px;
+
+}
+
+
+.cart_piece{
+    /* outline: 1px solid darkcyan; */
+    width: 210px;
+    position: relative;
+    bottom: 84px;
+    left: 407px;
+
+}
+/* 數量鍵 */
+.cart_piece button{
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #F05E1C;
+    color: #F05E1C;
+
+}
+
+#quantity3{
+    width: 90px;
+    height: 30px;
+    margin: 0 3px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #838383;
+    color: #838383;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.name{
+    /* outline: 1px solid darkcyan; */
+    width: 100px;
+    position: relative;
+    bottom: 62px;
+    left: 217px;
+    font-size: 20px;
+}
+
+#priceDisplay{
+    /* outline: 1px solid darkcyan; */
+    width: 80px;
+    position: relative;
+    bottom: 27px;
+    left: 327px;
+    font-size: 20px;
+    display: block;
+}
+
+#priceDisplay2{
+    /* outline: 1px solid darkcyan; */
+    width: 80px;
+    position: relative;
+    bottom: 27px;
+    left: 327px;
+    font-size: 20px;
+    display: block;
+}
+
+.cart_delete{
+    /* outline: 1px solid darkcyan; */
+    width: 100px;
+    position: relative;
+    bottom: 128px;
+    left: 807px;
+    font-size: 14px;
+    color: #838383;
+}
+
+#chk2{
+    position: relative;
+    bottom: 43px;
+    left: 0;
+}
+
+
+/* 訂單二 */
+
+.cart_main_order3{
+    /* outline: 1px solid darkcyan; */
+    width: 990px;
+    height: 100px;
+    margin: 0 auto;
+    position: absolute;
+    top: 430px;
+    left: 120px;
+
+}
+
+.cart_main_order3 img{
+    width: 100px;
+
+}
+
+.cart_main_hr{
+    width: 990px;
+    margin: 0 auto;
+    border-bottom: 1px solid #b0b0b0;
+    position: absolute;
+    top: 410px;
+    left: 90px;
+}
+
+.cart_main_hr2{
+    width: 990px;
+    margin: 0 auto;
+    border-bottom: 1px solid #b0b0b0;
+    position: absolute;
+    top: 130px;
+    left: -30px;
+}
+
+.cart_piece2{
+    /* outline: 1px solid darkcyan; */
+    width: 180px;
+    position: relative;
+    bottom: 84px;
+    left: 407px;
+
+}
+/* 數量鍵 */
+.cart_piece2 button{
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #F05E1C;
+    color: #F05E1C;
+
+}
+
+#quantity4{
+    width: 90px;
+    height: 30px;
+    margin: 0 3px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #838383;
+    color: #838383;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.name2{
+    /* outline: 1px solid darkcyan; */
+    width: 100px;
+    position: relative;
+    bottom: 62px;
+    left: 217px;
+    font-size: 20px;
+}
+
+.cart_price2{
+    /* outline: 1px solid darkcyan; */
+    width: 100px;
+    position: relative;
+    bottom: 112px;
+    left: 737px;
+    font-size: 20px;
+}
+
+.cart_delete2{
+    /* outline: 1px solid darkcyan; */
+    width: 100px;
+    position: relative;
+    bottom: 128px;
+    left: 807px;
+    font-size: 14px;
+    color: #838383;
+}
+
+#chk3{
+    position: relative;
+    bottom: 43px;
+    left: 0;
+}
+
+/* 結帳區 */
+
+.cart_checkout{
+    /* outline: 2px solid darkblue; */
+    width: 200px;
+    position: absolute;
+    left: 770px;
+}
+
+
+.cart_checkout h1{
+    /* outline: 2px solid darkblue; */
+    color: #F05E1C;
+    font-weight: 600;
+    width: 100px;
+    padding-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    position: relative;
+    left: 85px;
+    top: -32px;
+}
+
+
+.cart_checkout h3{
+    /* outline: 2px solid darkblue; */
+    width: 100px;
+}
+
+#checkout{
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    background: #F05E1C;
+    border: 0px;
+    color: #fff;
+    line-height: 40px;
+
+    position: relative;
+    left: 0px;
+    bottom: 22px;
+}
+
+#checkout:hover{
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    background: #FFA800;
+    border: 0px;
+    color: #fff;
+    line-height: 40px;
+}
+
+
+/* ---------------- 訂單 ------------------ */
+
+
+.checkout_main{
+    width: 100%;
+    height: 1500px;
+}
+
+.checkout_main_order{
+    width: 990px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #ffffffa4;
+    border-radius: 20px;
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    font-size: 14px;
+    font-family: "Noto Sans TC", sans-serif;
+    color: #838383;
+}
+
+.checkout_main h1{
+    width: 530px;
+    font-size: 32px;
+    color: #313131;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding-top: 50px;
+    padding-left: 120px;
+    margin-bottom: 20px;
+
+}
+
+.meals_name1{
+    /* outline: 1px solid darkmagenta; */
+    width: 30px;
+    position: relative;
+    top: 15px;
+    left: 50px;
+    font-size: 14px;
+    font-family: "Noto Sans TC", sans-serif;
+    color: #838383;
+}
+
+.meals_price1{
+    /* outline: 1px solid darkmagenta; */
+    width: 30px;
+    position: relative;
+    top: 0;
+    left: 350px;
+    font-size: 14px;
+    font-family: "Noto Sans TC", sans-serif;
+    color: #838383;
+}
+
+.meals_quantity1{
+    /* outline: 1px solid darkmagenta; */
+    width: 30px;
+    position: relative;
+    top: -14px;
+    left: 550px;
+    font-size: 14px;
+    font-family: "Noto Sans TC", sans-serif;
+    color: #838383;
+}
+
+.meals_price2{
+    /* outline: 1px solid darkmagenta; */
+    width: 30px;
+    position: relative;
+    top: -28px;
+    left: 770px;
+    font-size: 14px;
+    font-family: "Noto Sans TC", sans-serif;
+    color: #838383;
+}
+
+
+
+/* 訂單一 */
+.name3{
+    /* outline: 1px solid darkcyan; */
+    width: 100px;
+    position: relative;
+    bottom: 62px;
+    left: 110px;
+    font-size: 20px;
+}
+
+.cart_price3{
+    /* outline: 1px solid darkcyan; */
+    width: 80px;
+    position: relative;
+    bottom: 80px;
+    left: 317px;
+    font-size: 20px;
+}
+
+.cart_quantity3{
+    /* outline: 1px solid darkcyan; */
+    width: 30px;
+    position: relative;
+    bottom: 100px;
+    left: 540px;
+    font-size: 20px;
+}
+
+.cart_price4{
+    /* outline: 1px solid darkcyan; */
+    width: 30px;
+    position: relative;
+    bottom: 120px;
+    left: 740px;
+    font-size: 20px;
+}
+
+/* 訂單二 */
+.name4{
+    /* outline: 1px solid darkcyan; */
+    width: 100px;
+    position: relative;
+    bottom: 60px;
+    left: 110px;
+    font-size: 20px;
+}
+
+.cart_price5{
+    /* outline: 1px solid darkcyan; */
+    width: 80px;
+    position: relative;
+    bottom: 80px;
+    left: 317px;
+    font-size: 20px;
+}
+
+.cart_quantity4{
+    /* outline: 1px solid darkcyan; */
+    width: 30px;
+    position: relative;
+    bottom: 100px;
+    left: 540px;
+    font-size: 20px;
+}
+
+.cart_price6{
+    /* outline: 1px solid darkcyan; */
+    width: 30px;
+    position: relative;
+    bottom: 120px;
+    left: 740px;
+    font-size: 20px;
+}
+
+/* 結帳 */
+
+.cart_checkout{
+    /* outline: 2px solid darkblue; */
+    width: 200px;
+    position: relative;
+    left: 770px;
+}
+
+
+.cart_checkout h1{
+    /* outline: 2px solid darkblue; */
+    color: #F05E1C;
+    font-weight: 600;
+    width: 100px;
+    padding-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    position: relative;
+    left: 85px;
+    top: -32px;
+}
+
+
+.cart_checkout h3{
+    /* outline: 2px solid darkblue; */
+    width: 100px;
+}
+
+
+/* 分隔線 */
+.cart_main_hr3{
+    width: 990px;
+    margin: 0 auto;
+    border-bottom: 1px solid #b0b0b0;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+.cart_main_hr4{
+    width: 990px;
+    margin: 0 auto;
+    border-bottom: 1px solid #b0b0b0;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+}
+
+
+/* ---------------- 寄送資訊 ------------------ */
+
+.cart_map h3{
+    width: 530px;
+    font-size: 22px;
+    color: #313131;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+/* 訂購人 */
+.logistics{
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+#logistics{
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #F05E1C;
+    background-color: #ffffff00;
+    color: #F05E1C;
+    line-height: 40px;
+}
+
+#logistics:hover{
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border: 0px;
+    background-color: #F05E1C;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+
+#logistics_home{
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    background: #F05E1C;
+    border: 0px;
+    color: #fff;
+    line-height: 40px;
+}
+
+
+
+.cart_map{
+    /* outline: 2px solid fuchsia; */
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 120px;
+    position: absolute;
+    top: 600px;
+
+
+}
+
+
+/* ---------------- inupt 資訊 ------------------ */
+
+.inf{
+        /* outline: 2px solid fuchsia; */
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    
+}
+
+.inf p{
+    width: 530px;
+    font-size: 16px;
+    color: #313131;
+    overflow: hidden;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+.input_name{
+	width: 990px;
+	height: 30px;
+    border: 0;
+    background-color: #ffffff00;
+	border-bottom: 1px solid #282828;
+	outline: 0;
+	padding-left: 2px;
+	color: #282828;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.phone{
+	width: 990px;
+	height: 30px;
+    border: 0;
+    background-color: #ffffff00;
+	border-bottom: 1px solid #282828;
+	outline: 0;
+	padding-left: 2px;
+	color: #282828;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.address{
+	width: 990px;
+	height: 30px;
+    border: 0;
+    background-color: #ffffff00;
+	border-bottom: 1px solid #282828;
+	outline: 0;
+	padding-left: 2px;
+	color: #282828;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+li .warning{
+    width: 530px;
+    font-size: 14px;
+    color: #838383;
+    overflow: hidden;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+
+/* 收貨人 */
+
+.recipient{
+    width: 530px;
+    font-size: 22px;
+    color: #313131;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+
+}
+.logistics{
+    width: 100%;
+
+}
+
+.order{
+    padding-top: 20px;
+}
+
+#payment{
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    background: #F05E1C;
+    border: 0px;
+    color: #fff;
+    line-height: 40px;
+}
+
+#payment_online{
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #F05E1C;
+    background-color: #ffffff00;
+    color: #F05E1C;
+    line-height: 40px;
+}
+
+#payment_online:hover{
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border: 0px;
+    background-color: #F05E1C;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+
+#order_chk{
+    position: relative;
+    bottom: 20px;
+    left: 150px;
+    border: 1px solid #838383;
+}
+
+
+.order_text{
+    width: 990px;
+    margin: 0 auto;
+    position: absolute;
+    top: 416px;
+    left: 295px;
+    font-size: 14px;
+    color: #838383;
+}
+
+/* 總金額 */
+
+.cart_order_checkout2{
+    /* outline: 2px solid darkblue; */
+    width: 300px;
+    position: relative;
+    top: 1220px;
+    left: 810px;
+}
+
+.cart_main_hr5{
+    width: 300px;
+    margin: 0 auto;
+    border-bottom: 1px solid #b0b0b0;
+    position: absolute;
+    top: 28px;
+    right: 0px;
+}
+
+.cart_order_checkout2 .order3{
+    width: 70px;
+    font-size: 22px;
+    color: #313131;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 600;
+    position: relative;
+    bottom: 20px;
+    left: 0px;
+
+
+}
+
+.cart_order_checkout2 .order4 {
+    color: #F05E1C;
+    font-weight: 600;
+    width: 100px;
+    padding-top: 0px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 50px;
+    left: 230px;
+    
+}
+
+.cart_order_checkout2 .order5{
+    width: 150px;
+    font-size: 22px;
+    color: #313131;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 600;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+
+
+}
+
+.cart_order_checkout2 .order6 {
+    color: #F05E1C;
+    font-weight: 600;
+    width: 100px;
+    padding-top: 0px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 30px;
+    left: 205px;
+    
+}
+
+#checkout2{
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    background: #F05E1C;
+    border: 0px;
+    color: #fff;
+    line-height: 40px;
+    position: relative;
+    bottom: 0px;
+    left: 155px;
+}
+
+
+
+/* ---------------- 訂單頁面 ------------------ */
+
+.order_main{
+    /* outline: 1px solid fuchsia; */
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+
+.order_main h1{
+    text-align: center;
+    font-size: 42px;
+    color: #313131;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding: 30px 0;
+}
+
+
+/* 頁籤設定 */
+#tab {
+    width: 900px;
+    height: 50px;
+    border-bottom: solid 1px #282828;
+    margin: 0 auto;
+}
+
+.tab-content-1, .tab-content-2, .tab-content-3, .tab-content-4, .tab-content-5, .tab-content-6, .tab-content-7{
+    width: 860px;
+    background-color: #83838337;
+    border-radius: 20px;
+    position: relative;
+    top: 40px;
+}
+
+
+
+#tab > ul {
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 10px 20px 0 20px;
+}
+
+/* 文字 */
+#tab a { 
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #282828;
+    float: left;
+    padding: 10px;
+    margin-left: 5px;
+    padding-right: 50px;
+}
+
+
+#tab a:hover { 
+    text-decoration: none;
+    font-size: 16px;
+    color: #F05E1C;
+    float: left;
+    padding: 10px;
+    margin-left: 5px;
+    padding-right: 50px;
+}
+
+
+#tab > div {
+    clear: both;
+    padding: 0 15px;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/*選擇其他頁籤時，第一個要變回橘色*/
+span:target ~ #tab > ul li:first-child a {
+    /* background: #F05E1C; */
+}
+
+span:target ~ #tab > div:first-of-type {
+    visibility: hidden;
+    height: 0;
+    padding: 0 15px;
+}
+
+/*頁籤變換設定*/
+span ~ #tab > ul li:first-child a,
+#tab-1:target ~ #tab > ul li a[href$="#tab-1"],
+#tab-2:target ~ #tab > ul li a[href$="#tab-2"],
+#tab-3:target ~ #tab > ul li a[href$="#tab-3"],
+#tab-4:target ~ #tab > ul li a[href$="#tab-4"],
+#tab-5:target ~ #tab > ul li a[href$="#tab-5"],
+#tab-6:target ~ #tab > ul li a[href$="#tab-6"],
+#tab-7:target ~ #tab > ul li a[href$="#tab-7"] {
+    /* background: #fff; */
+    border-radius: 5px 5px 0 0;
+}
+
+span ~ #tab > ul li:first-child a::before,
+#tab-1:target ~ #tab > ul li a[href$="#tab-1"]::before,
+#tab-2:target ~ #tab > ul li a[href$="#tab-2"]::before,
+#tab-3:target ~ #tab > ul li a[href$="#tab-3"]::before,
+#tab-4:target ~ #tab > ul li a[href$="#tab-4"]::before,
+#tab-5:target ~ #tab > ul li a[href$="#tab-5"]::before,
+#tab-6:target ~ #tab > ul li a[href$="#tab-6"]::before,
+#tab-7:target ~ #tab > ul li a[href$="#tab-7"]::before  {
+    /* background-color: #fff; */
+    height: 100%;
+}
+
+/* 頁籤下方內容選擇 */
+span ~ #tab > div:first-of-type,
+#tab-1:target ~ #tab > div.tab-content-1,
+#tab-2:target ~ #tab > div.tab-content-2,
+#tab-3:target ~ #tab > div.tab-content-3,
+#tab-4:target ~ #tab > div.tab-content-4,
+#tab-5:target ~ #tab > div.tab-content-5,
+#tab-6:target ~ #tab > div.tab-content-6,
+#tab-7:target ~ #tab > div.tab-content-7  {
+    visibility: visible;
+    height: 400px;
+    /* background: #fff; */
+}
+
+/* 隱藏 定義頁籤區 */
+span  {
+    display: none;
+}
+
+
+img{
+    padding-top: 10px;
+    width: 100px;
+
+}
+h2{
+    font-size: 16px;
+    color: #313131;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.tab-content_p{
+    position: relative;
+    top: -70px;
+    left: 130px;
+}
+
+.tab-content_p2{
+    position: relative;
+    top: -80px;
+    left: 730px;
+}
+
+.tab-content_p3{
+    position: relative;
+    top: -60px;
+    left: 130px;
+}
+
+.tab-content_p4{
+    position: relative;
+    top: -80px;
+    left: 730px;
+}
+
+.tab-content_order{
+    /* outline:  1px solid aqua; */
+    height: 100px;
+}
+
+.tab-content_hr{
+    position: relative;
+    top: -40px;
+    left: 0px;
+}
+
+.tab-content_p5{
+    font-size: 22px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: -20px;
+    left: 600px;
+}
+
+
+#checkout3{
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    border: 1px solid #F05E1C;
+    background: #F05E1C;
+    border: 0px;
+    color: #fff;
+    line-height: 40px;
+    position: relative;
+    bottom: 50px;
+    left: 0px;
+}
+
+#checkout4{
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    border: 1px solid #FFA800;
+    background: #FFA800;
+    border: 0px;
+    color: #fff;
+    line-height: 40px;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+
+#checkout4:hover{
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    border: 1px solid #F05E1C;
+    background: #F05E1C;
+    border: 0px;
+    color: #fff;
+    line-height: 40px;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}

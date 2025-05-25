@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Example</title>
+
+</head>
+
+<body>
+    <button onclick="decrement()">-</button>
+
+    <input type="text" id="quantity" value="1">
+
+    <button onclick="increment()">+</button>
+
+    <span id="priceDisplay">$200</span>
+
+    <script>
+        var quantityInput = document.getElementById('quantity');
+        var priceDisplay = document.getElementById('priceDisplay');
+        var unitPrice = 100; // 每個商品的單位價格
+
+        function decrement() {
+            var currentValue = parseInt(quantityInput.value);
+
+            if (currentValue > 1) {
+                quantityInput.value = currentValue2 - 1;
+                updatePrice();
+            }
+        }
+
+        function increment() {
+            var currentValue2 = parseInt(quantityInput.value);
+
+            quantityInput.value = currentValue2 + 1;
+            updatePrice();
+        }
+
+        function updatePrice2() {
+            var quantity = parseInt(quantityInput.value);
+            var price = quantity * unitPrice; // 根據數量和單位價格計算總價格
+            priceDisplay.textContent = '$' + price;
+        }
+    </script>
+
+</body>
+
+</html>

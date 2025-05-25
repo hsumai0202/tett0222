@@ -1,0 +1,742 @@
+@import url("reset.css");
+
+
+/* ---------------- 頁碼 ------------------ */
+
+.page-normal{
+    text-align: center;
+}
+
+
+.page-normal a{
+    border: 1px solid #F05E1C;
+    padding: 5px 7px;
+    color: #F05E1C;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.page-normal a:hover, .page-normal .page-prev:hover {
+    background-color: #ffbe94;
+}
+
+
+/*設置左單括號 < 的css樣式*/
+.page-normal .page-prev{
+    color: #F05E1C;
+}
+
+.page-normal a, .page-normal a:hover, .page-normal .page-prev {
+    border: 1px solid #F05E1C;
+    padding: 5px 7px;
+}
+
+
+
+/* ---------------- 所有餐點內容區塊 ------------------ */
+.meals_main{
+    width: 100%;
+    padding-bottom: 90px;
+}
+
+.meals_main_1{
+    width: 95%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.meals_main_1 ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: center; 
+}
+
+.meals_main_1 li{
+    margin: 20px;
+    box-sizing: border-box;
+
+
+}
+
+.meals_main_1 img{
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.meals_main h1{
+    text-align: center;
+    font-size: 42px;
+    color: #313131;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding: 30px 0;
+}
+
+.meals_main a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #313131;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    display: block;
+    height: 50px;
+}
+
+.price{
+    font-size: 32px;
+    color: #F05E1C;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    padding-left:  45px;
+}
+
+
+#shopp {
+    display: block;
+    width: 255px;
+    height: 50px;
+    background: #F05E1C;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 4px;
+    border-radius: 35px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#shopp:hover {
+    background: #FFA800;
+    color: #fff;
+}
+
+#divchpic01{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/商品圖/暗夜神秘堡2.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    padding-bottom: 15px;
+    cursor:pointer;
+}
+
+#divchpic02{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/商品圖/大滿貫2.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    padding-bottom: 15px;
+    cursor:pointer;
+}
+
+#divchpic03{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/商品圖/起司豬肉2.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    padding-bottom: 15px;
+    cursor:pointer;
+}
+
+#divchpic04{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/商品圖/酪梨起司2.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    padding-bottom: 15px;
+    cursor:pointer;
+}
+
+#divchpic05{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/商品圖/鳳梨豬2.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    padding-bottom: 15px;
+    cursor:pointer;
+}
+
+#divchpic06{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/商品圖/經典美式2.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    padding-bottom: 15px;
+    cursor:pointer;
+}
+
+
+#divchpic07{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/商品圖/五行拳堡2.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    padding-bottom: 15px;
+    cursor:pointer;
+}
+
+
+#divchpic08{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/商品圖/五行六合堡2.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    padding-bottom: 15px;
+    cursor:pointer;
+}
+
+#divchpic01, #divchpic02, #divchpic03, #divchpic04, #divchpic05, #divchpic06, #divchpic07, #divchpic08{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+#divchpic01:hover {
+    display: block;
+    background-image: url(../img/商品圖/暗夜神秘堡.png);
+    
+    transition: .5s;
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+
+#divchpic02:hover {
+    display: block;
+    background-image: url(../img/商品圖/大滿貫.png);
+    
+    transition: .5s;
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+
+#divchpic03:hover {
+    display: block;
+    background-image: url(../img/商品圖/起司豬肉.png);
+    
+    transition: .5s;
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+
+#divchpic04:hover {
+    display: block;
+    background-image: url(../img/商品圖/酪梨起司.png);
+    
+    transition: .5s;
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+
+#divchpic05:hover {
+    display: block;
+    background-image: url(../img/商品圖/鳳梨豬.png);
+    
+    transition: .5s;
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+
+#divchpic06:hover {
+    display: block;
+    background-image: url(../img/商品圖/經典美式.png);
+    
+    transition: .5s;
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+#divchpic07:hover {
+    display: block;
+    background-image: url(../img/商品圖/五行拳堡.png);
+    
+    transition: .5s;
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+#divchpic08:hover {
+    display: block;
+    background-image: url(../img/商品圖/五行六合堡.png);
+    
+    transition: .5s;
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+
+/* ---------------- 商品詳細頁 ------------------ */
+
+.burger_main{
+    width: 100%;
+}
+
+.burger_main_top{
+    /* outline:  2px solid seagreen; */
+    padding-left: 110px;
+    padding-top: 40px;
+    height: 420px;
+    margin: 0 auto;
+}
+
+
+.burger_main_top img{
+    /* outline:  2px solid seagreen; */
+    width: 400px;
+    position: absolute;
+}
+
+.burger_main_int{
+    padding-left: 20px;
+}
+
+.burger_main_top h1{
+    /* outline:  2px solid seagreen; */
+    width: 250px;
+    font-size: 42px;
+    color: #313131;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    position: relative;
+    left: 410px;
+
+
+}
+
+.burger_main_top span{
+    /* outline:  2px solid seagreen; */
+    width: 230px;
+    font-size: 16px;
+    color: #FFA800;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 20px;
+    left: 410px;
+
+
+}
+
+/* 五顆星星 */
+.kid_star1{
+    /* outline:  2px solid seagreen; */
+    background-image: url(../img/Star.svg);
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    position: relative;
+    display: inline-flex;
+    top: 5px;
+    left: 440px;
+
+
+}
+
+.burger_main_top .sale{
+    /* outline:  2px solid seagreen; */
+    width: 530px;
+    font-size: 16px;
+    color: #838383;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: -14px;
+    left: 580px;
+
+}
+
+.burger_main_top p{
+    /* outline:  2px solid seagreen; */
+    width: 600px;
+    font-size: 16px;
+    color: #282828;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 1.6;
+    position: relative;
+    left: 410px;
+
+}
+
+.burger_main_top .price{
+    /* outline:  2px solid seagreen; */
+    width: 50px;
+    font-size: 16px;
+    color: #838383;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    position: relative;
+    top: 80px;
+    left: 690px;
+
+}
+
+
+.burger_main_top .pr2{
+    /* outline:  2px solid seagreen; */
+    width: 110px;
+    font-size: 42px;
+    color: #F05E1C;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    position: relative;
+    bottom: -20px;
+    left: 740px;
+
+}
+
+
+
+/* 數量鍵 */
+.piece2{
+    /* outline: 2px solid goldenrod; */
+    width: 300px;
+    position: relative;
+    top: 110px;
+    left: 410px;
+
+}
+
+.burger_main_top button{
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 30px;
+    padding-bottom: 20px;
+    background: #fff;
+    border: 1px solid #F05E1C;
+    color: #F05E1C;
+
+}
+
+#quantity2{
+    width: 115px;
+    height: 38px;
+    margin: 0 3px;
+    border-radius: 4px;
+    font-size: 20px;
+    background: #fff;
+    border: 1px solid #838383;
+    color: #838383;
+    text-align: center;
+
+}
+/* 加入購物車 */
+#shoppcart{
+    display: block;
+    width: 220px;
+    height: 50px;
+    background: #F05E1C;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    position: relative;
+    bottom: -30px;
+    left: 410px;
+    /* 去除自帶的陰影 */
+    border:none;
+    /* 滑鼠游標 */
+    cursor:pointer;
+}
+
+
+#shoppcart:hover{
+    background: #FFA800;
+    color: #fff;
+}
+
+/* 直接結帳 */
+.burger_main_top a{
+    display: block;
+    width: 220px;
+    height: 50px;
+    color: #F05E1C;
+    font-size: 25px;
+    letter-spacing: 4px;
+    border-radius: 5px ;
+    border: 2px solid #F05E1C;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+    left: 660px;
+}
+
+.burger_main_top a:hover{
+    background: #F05E1C;
+    border: 0;
+    color: #fff;
+}
+/* 分隔線 */
+hr {
+    margin-top: 20px;
+    width: 1200px;
+    border: 0;
+    height: 5px;
+    /* background: #333; */
+    background-image: linear-gradient(to right, #ef834500, #EC5F1F, #EF834500);
+}
+
+/* ---------------- 產品介紹區塊 ------------------ */
+.burger_main_int2 {
+    /* outline:  2px solid rgb(75, 46, 139); */
+    /* background-color: #282828; */
+    height: 1920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger_main_int3 {
+    /* outline:  2px solid rgb(75, 46, 139); */
+    margin: 0 auto;
+    position: absolute;
+    top: 630px;
+}
+
+.burger_main_int3 img{
+    display: block;
+    /* outline:  2px solid seagreen; */
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 20px ;
+    /* filter: drop-shadow(20px 30px 10px rgba(0, 0, 0, 0.242)); */
+}
+
+.burger_main_int3 h1{
+    /* outline:  2px solid seagreen; */
+    width: 450px;
+    font-size: 42px;
+    color: #ffffff84;
+    font-family: "Noto Serif TC", serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    position: relative;
+    left: 80px;
+    bottom: -200px;
+    z-index: 10;
+
+}
+
+.burger_main_int3 p{
+    /* outline:  2px solid seagreen; */
+    width: 400px;
+    font-size: 20px;
+    color: #ffffff84;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 1.6;
+    position: relative;
+    left: 80px;
+    bottom: -220px;
+    z-index: 10;
+
+}
+
+
+.img_structure{
+    /* outline:  2px solid rgb(75, 46, 139); */
+    margin: 0 auto;
+    position: absolute;
+    top: 1050px;
+
+}
+
+
+.img_structure img{
+   width: 800px;
+   margin: 0 auto;
+   filter: drop-shadow(20px 30px 10px rgba(0, 0, 0, 0.242));
+}
+
+
+.img_structure1{
+    width: 400px;
+    font-size: 22px;
+    color: #282828;
+    font-family: "Noto Serif TC", serif;
+    font-weight: 600;
+    position: relative;
+    bottom: 600px;
+    left: -20px;
+}
+
+
+.img_structure2{
+    width: 230px;
+    font-size: 22px;
+    color: #282828;
+    font-family: "Noto Serif TC", serif;
+    font-weight: 600;
+    position: relative;
+    bottom: 480px;
+    left: 670px;
+}
+
+
+.img_structure3{
+    width: 230px;
+    font-size: 22px;
+    color: #282828;
+    font-family: "Noto Serif TC", serif;
+    font-weight: 600;
+    position: relative;
+    bottom: 560px;
+    left: 670px;
+}
+
+
+.img_structure4{
+    width: 400px;
+    font-size: 22px;
+    color: #282828;
+    font-family: "Noto Serif TC", serif;
+    font-weight: 600;
+    position: relative;
+    bottom: 510px;
+    left: -20px;
+}
+
+
+.img_structure5{
+    width: 400px;
+    font-size: 22px;
+    color: #282828;
+    font-family: "Noto Serif TC", serif;
+    font-weight: 600;
+    position: relative;
+    bottom: 370px;
+    left: -40px;
+}
+
+
+
+
+
+.burger_main_int4{
+    /* outline:  2px solid rgb(97, 6, 27); */
+    margin: 0 auto;
+    position: relative;
+    top: 360px;
+    left: 110px;
+}
+
+.burger_main_int4 img{
+    display: block;
+    /* outline:  2px solid rgb(139, 116, 46); */
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 20px ;
+    /* filter: drop-shadow(20px 30px 10px rgba(0, 0, 0, 0.242)); */
+}
+
+
+.burger_main_int4 p{
+    /* outline:  2px solid seagreen; */
+    width: 400px;
+    font-size: 16px;
+    color: #282828;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    position: relative;
+    left: 520px;
+    bottom: 330px;
+    z-index: 10;
+
+}
+
+
+
+.burger_main_int5{
+    /* outline:  2px solid rgb(225, 7, 7); */
+    margin: 0 auto;
+    position: relative;
+    top: 680px;
+    left: -110px;
+}
+
+.burger_main_int5 img{
+
+    /* outline:  2px solid rgb(139, 116, 46);    */
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 20px ;
+    /* filter: drop-shadow(-20px 30px 10px rgba(0, 0, 0, 0.242)); */
+}
+
+
+.burger_main_int5 p{
+
+    width: 390px;
+    font-size: 16px;
+    color: #282828;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    position: relative;
+    left: -410px;
+    bottom: -110px;
+    z-index: 10;
+
+}
+
+
+/* ---------------- 動畫設定區域 ------------------ */
+
+.ani_img {
+    opacity: 0;
+    transition: all 5s;
+    transform: translateY(10em);
+    /* transform: rotateZ('1'); */
+    animation:1.2s .4s ease-in-out forwards
+
+}
+
+.ani_img.ed {
+    opacity: 1;
+    transform: translateY(0em);
+    z-index: 1;
+}
+
+
+.img_structure > p:hover{
+    color: #F05E1C;
+    transform: scale(1.2);
+
+}
